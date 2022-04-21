@@ -111,3 +111,17 @@ ul {
 li {
   margin-bottom: 4px;
 }
+
+@media (min-width: 576px) {
+  .container {
+    width: 100%;
+    height: auto;
+  }
+  .common {
+    flex-direction: column;
+  }
+  .left,
+  .right {
+    width: 100%;
+  }
+}
